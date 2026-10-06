@@ -1,0 +1,661 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="theme-color" content="#26372d">
+
+    <title>
+        Rouf Villa — A Family Home Since 1947
+    </title>
+
+    <meta
+        name="description"
+        content="Rouf Villa, locally known as Chowdhury Bari. Built in 1947 by Abdur Rouf Chowdhury. An architectural story and family archive."
+    >
+
+    <link
+        rel="icon"
+        type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' fill='%2326372d'/%3E%3Ctext x='20' y='28' text-anchor='middle' font-family='Georgia' font-size='27' fill='%23f4efe4'%3ER%3C/text%3E%3C/svg%3E"
+    >
+
+    <link
+        rel="stylesheet"
+        href="style.css?v=2"
+    >
+
+</head>
+
+
+<body>
+
+    <!-- =========================
+         SKIP LINK
+    ========================== -->
+
+    
+
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header>
+
+        <a
+            class="brand"
+            href="#home"
+        >
+            ROUF VILLA
+
+            <span>
+                EST. 1947
+            </span>
+
+        </a>
+
+
+        <nav aria-label="Main navigation">
+            <a href="#memory">
+                Memory
+            </a>
+
+        </nav>
+
+
+        
+
+    </header>
+
+
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
+
+    <main>
+
+
+        <!-- =========================
+             CINEMATIC INTRO
+        ========================== -->
+
+        <section
+            class="cinematic"
+            id="home"
+            aria-label="Enter Rouf Villa: scroll through a cinematic reconstruction"
+        >
+
+            <div class="cinematic-stage">
+
+
+                <!-- Entrance Video -->
+
+                <video
+                    id="entrance-film"
+                    class="entrance-film"
+                    muted
+                    playsinline
+                    preload="auto"
+                    poster="assets/entrance-poster.jpg"
+                    aria-label="Cinematic reconstruction moving from the courtyard through Rouf Villa’s front doorway"
+                >
+                </video>
+
+
+                <!-- Poster Image -->
+
+                <img
+                    class="film-poster"
+                    src="assets/entrance-poster.jpg"
+                    alt="Rouf Villa seen from the courtyard in the cinematic reconstruction"
+                    fetchpriority="high"
+                >
+
+
+                <!-- Film Shade -->
+
+                <div class="film-shade"></div>
+
+
+                <!-- =========================
+                     FILM INTRO
+                ========================== -->
+
+                <div
+                    class="film-copy film-intro"
+                    data-cue="intro"
+                >
+
+                    <p class="eyebrow">
+                        BANGLADESH · EST. 1947
+                    </p>
+
+                    <h1>
+                        ROUF VILLA
+                    </h1>
+
+                    <p class="hero-alias">
+                        Chowdhury Bari
+                    </p>
+
+                    <p class="hero-sub">
+                        A Family Home Since 1947
+                    </p>
+
+                </div>
+
+
+                <!-- =========================
+                     TREES / BEGINNING
+                ========================== -->
+
+                <div
+                    class="film-copy film-trees"
+                    data-cue="trees"
+                    aria-hidden="true"
+                >
+
+                    <p class="eyebrow">
+                        THE BEGINNING
+                    </p>
+
+                    <h2>
+                        1947
+                    </h2>
+
+                    <p>
+                        A house built.
+                        <br>
+                        A family story begun.
+                    </p>
+
+                </div>
+
+
+                <!-- =========================
+                     DOOR / THRESHOLD
+                ========================== -->
+
+                <div
+                    class="film-copy film-door"
+                    data-cue="door"
+                    aria-hidden="true"
+                >
+
+                    <p class="eyebrow">
+                        ACROSS THE THRESHOLD
+                    </p>
+
+                    <h2>
+                        Built by
+                        <br>
+                        <em>
+                            Abdur Rouf
+                            <br>
+                            Chowdhury.
+                        </em>
+                    </h2>
+
+                    <p>
+                        A place that became part
+                        <br>
+                        of our family history.
+                    </p>
+
+                </div>
+
+
+                <!-- =========================
+                     INSIDE
+                ========================== -->
+
+                <div
+                    class="film-copy film-inside"
+                    data-cue="inside"
+                    aria-hidden="true"
+                >
+
+                    <p class="eyebrow">
+                        ROUF VILLA · CHOWDHURY BARI
+                    </p>
+
+                    <h2>
+                        A house.
+                        <br>
+                        A family.
+                        <br>
+                        <em>
+                            A memory that remains.
+                        </em>
+                    </h2>
+
+                   
+                </div>
+
+
+                <!-- =========================
+                     FILM TOPLINE
+                ========================== -->
+
+                
+
+
+                <!-- =========================
+                     FILM BOTTOM CONTROLS
+                ========================== -->
+
+                <div class="film-bottom">
+
+
+                    <!-- Film Instructions -->
+
+                    <div class="film-instructions">
+
+                        
+                        <span
+                            id="film-status"
+                            role="status"
+                        >
+                            Preparing the film…
+                        </span>
+
+                    </div>
+
+
+                    <!-- Film Timeline -->
+
+                    <div class="film-timeline">
+
+                        <label
+                            for="film-progress"
+                            class="visually-hidden"
+                        >
+                            Position in the cinematic opening
+                        </label>
+
+                        <input
+                            id="film-progress"
+                            type="range"
+                            min="0"
+                            max="100"
+                            step="0.1"
+                            value="0"
+                            aria-valuetext="Beginning of the courtyard"
+                        >
+
+                        
+                    </div>
+
+
+                    <!-- Film Credit -->
+
+                    
+
+                </div>
+
+
+                <!-- =========================
+                     NOSCRIPT FALLBACK
+                ========================== -->
+
+                <noscript>
+
+                    <style>
+                        .film-copy:not(.film-intro) {
+                            display: none;
+                        }
+
+                        .film-poster {
+                            opacity: 1;
+                        }
+
+                        .film-timeline,
+                        #film-status {
+                            display: none;
+                        }
+                    </style>
+
+                </noscript>
+
+            </div>
+
+        </section>
+
+
+       
+
+
+        
+
+
+      
+
+
+        <!-- =========================
+             06 / MEMORY
+        ========================== -->
+
+        <section
+            class="memory section-pad"
+            id="memory"
+        >
+
+            <div class="section-top">
+
+                <span class="eyebrow">
+                    THE FAMILY
+                </span>
+
+                <span class="tiny">
+                    THREE GENERATIONS · ONE HOME
+                </span>
+
+            </div>
+
+
+            <div class="memory-title reveal">
+
+                <h2>
+                    More than a house.
+                    <br>
+                </h2>
+
+                <p>
+                    Rooted in one home, connected across generations.
+                    <br>
+                    Meet the family of Rouf Villa.
+                </p>
+
+            </div>
+
+
+            <!-- =========================
+                 MEMORY GRID
+            ========================== -->
+
+            <div class="family-tree" aria-label="Three generations of the Chowdhury family">
+
+    <div class="family-root">
+
+        <article class="family-person" id="family-owner" style="--arrival: 0ms">
+
+            <div class="family-portrait">
+                <img 
+                    src="assets/Abdrouf chowdhury.png" 
+                    alt="Portrait of Abdur Rouf Chowdhury" 
+                    loading="lazy" 
+                    decoding="async" 
+                    width="1056" 
+                    height="1489"
+                >
+            </div>
+
+            <p class="family-role">Owner · First generation</p>
+
+            <h3>Abdur Rouf Chowdhury</h3>
+
+            <p class="family-relation">
+                The beginning of our family story
+            </p>
+
+        </article>
+
+    </div>
+
+
+    <div class="family-branches">
+
+        <!-- Elder Son Branch -->
+        <div class="family-branch">
+
+            <article 
+                class="family-person" 
+                id="family-kamrul" 
+                style="--arrival: 850ms"
+            >
+
+                <div class="family-portrait">
+                    <img 
+                        src="assets/Kamrul Ahsan Chowdhury.png" 
+                        alt="Portrait of Kamrul Ahsan Chowdhury" 
+                        loading="lazy" 
+                        decoding="async" 
+                        width="1056" 
+                        height="1489"
+                    >
+                </div>
+
+                <p class="family-role">
+                    Elder son
+                </p>
+
+                <h3>
+                    Kamrul Ahsan Chowdhury
+                </h3>
+
+                <p class="family-relation">
+                    Son of Abdur Rouf Chowdhury
+                </p>
+
+            </article>
+
+
+            <div class="family-descendant">
+
+                <article 
+                    class="family-person" 
+                    id="family-asif" 
+                    style="--arrival: 1750ms"
+                >
+
+                    <div class="family-portrait">
+                        <img 
+                            src="assets/Dr Asif Ahsan Chowdhury.png" 
+                            alt="Portrait of Dr Asif Ahsan Chowdhury" 
+                            loading="lazy" 
+                            decoding="async" 
+                            width="1056" 
+                            height="1489"
+                        >
+                    </div>
+
+                    <p class="family-role">
+                        Grandson · Third generation
+                    </p>
+
+                    <h3>
+                        Dr Asif Ahsan Chowdhury
+                    </h3>
+
+                    <p class="family-relation">
+                        Son of Kamrul Ahsan Chowdhury
+                    </p>
+
+                </article>
+
+            </div>
+
+        </div>
+
+
+        <!-- Younger Son Branch -->
+        <div class="family-branch">
+
+            <article 
+                class="family-person" 
+                id="family-nazmul" 
+                style="--arrival: 850ms"
+            >
+
+                <div class="family-portrait">
+                    <img 
+                        src="assets/Nazmul Hassan Chowdhury.png" 
+                        alt="Portrait of Nazmul Hassan Chowdhury" 
+                        loading="lazy" 
+                        decoding="async" 
+                        width="1056" 
+                        height="1489"
+                    >
+                </div>
+
+                <p class="family-role">
+                    Younger son
+                </p>
+
+                <h3>
+                    Nazmul Hassan Chowdhury
+                </h3>
+
+                <p class="family-relation">
+                    Son of Abdur Rouf Chowdhury
+                </p>
+
+            </article>
+
+
+            <div class="family-descendant">
+
+                <article 
+                    class="family-person" 
+                    id="family-aqib" 
+                    style="--arrival: 1750ms"
+                >
+
+                    <div class="family-portrait">
+                        <img 
+                            src="assets/Aqib Ibna Hasan Chowdhury.png" 
+                            alt="Portrait of Aqib Ibna Hasan Chowdhury" 
+                            loading="lazy" 
+                            decoding="async" 
+                            width="1056" 
+                            height="1489"
+                        >
+                    </div>
+
+                    <p class="family-role">
+                        Grandson · Third generation
+                    </p>
+
+                    <h3>
+                        Aqib Ibna Hasan Chowdhury
+                    </h3>
+
+                    <p class="family-relation">
+                        Son of Nazmul Hassan Chowdhury
+                    </p>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <p class="family-endnote">
+        One home. Three generations. A story that continues.
+    </p>
+
+</div>
+
+        </section>
+
+
+        <!-- =========================
+             CLOSING
+        ========================== -->
+
+        <section class="closing">
+
+
+            <!-- Closing Image -->
+
+            <img
+                src="assets/reconstruction.png"
+                alt="Visual reconstruction of Rouf Villa among the trees"
+                loading="lazy"
+            >
+
+
+            <!-- Closing Shade -->
+
+            <div class="closing-shade"></div>
+
+
+            <!-- Closing Content -->
+
+            <div class="closing-content reveal">
+
+                <span class="eyebrow">
+                    ROUF VILLA
+                </span>
+
+
+                <p class="closing-alias">
+
+                    Chowdhury Bari
+
+                    <span>
+                        Since 1947
+                    </span>
+
+                </p>
+
+
+                <h2>
+                    A house.
+                    <br>
+                    A family.
+                    <br>
+                    <em>
+                        A memory that remains.
+                    </em>
+                </h2>
+
+
+                <p class="closing-builder">
+                    Built by Abdur Rouf Chowdhury
+                </p>
+
+            </div>
+
+
+            <!-- Closing Footer -->
+
+            <div class="closing-bottom">
+
+                <span class="tiny">
+                    © Rouf Villa. Developed by Aqib
+                </span>
+
+                <a href="#home">
+                    Return to the beginning
+                </a>
+
+                <span class="tiny">
+                    ROUF VILLA · 1947
+                </span>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script src="script.js?v=2"></script>
+
+</body>
+
+</html>
